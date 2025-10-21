@@ -41,6 +41,10 @@
     font-weight: bold;
 }
 
+.text-center {
+    text-align: center;
+}
+
 
 /* header */
 .header{
@@ -75,7 +79,7 @@ nav ul li {
 
 nav li a {
     text-decoration: none;
-
+    color: black;
 }
 
 
@@ -116,7 +120,6 @@ nav li a {
 main {
     max-width: 1140px;
     border-radius: 10px;
-    background-color: #FFF8F3;
     margin: 0 auto;
 }
 
@@ -128,6 +131,9 @@ main {
     padding: 130px 155px;
     text-align: center;
     margin-top: 130px;
+    margin-bottom: 130px;
+    background-color: #FFF8F3;
+
 }
 
 .about-items {
@@ -144,4 +150,36 @@ main {
     font-weight: 600;
     color: #474747;
     font-size: 20px;
+}
+
+
+/* What i do section */
+
+.skills {
+    padding:0 115px;
+    margin-bottom: 50px;
+}
+
+
+/* skill section */
+
+.skill-container {
+    display: flex;
+    gap:24px;
+}
+
+.skill {
+    padding:30px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06) ;
+    margin-bottom: 130px;
+    border-radius: 5px;
+}
+
+.skill-title {
+    margin:15px 0;
+}
+
+.skill-description {
+    font-size: 15px;
+    color: #757575;
 }
