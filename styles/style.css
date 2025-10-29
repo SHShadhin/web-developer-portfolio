@@ -266,6 +266,9 @@ footer textarea {
   .about-items {
     flex-direction: column;
   }
+  .resume-container{
+    padding: 15px;
+  }
   .btn-primary {
     margin-top: 10px;
   }
@@ -289,11 +292,11 @@ footer textarea {
     padding: 18px 100px 18px 30px;
   }
   footer textarea {
-     padding: 18px 150px 130px 30px;
+     padding: 18px 120px 130px 30px;
   }
 }
 
-/* @media screen and (min-width: 576px) and (max-width:992px) {
+@media screen and (min-width: 577px) and (max-width:992px) {
   .banner {
     flex-direction: column;
   }
@@ -301,12 +304,11 @@ footer textarea {
   input[type="email"] {
     padding: 18px 100px 18px 30px;
   }
-  footer {
-    gap:80px;
-    padding: 130px 100px;
-  }
   footer textarea {
-     padding: 18px 100px 130px 30px;
+     padding: 18px 150px 130px 30px;
   }
-} */
+  footer {
+    padding:130px 130px;
+  }
+}
 
