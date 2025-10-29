@@ -252,3 +252,61 @@ footer textarea {
   color: #757575;
   margin-bottom: 24px;
 }
+
+
+/* Responsive Area */
+
+@media screen and (max-width: 576px) {
+  .skill-container,
+  .resume-container,
+  footer,
+  nav,
+  nav ul,
+  .banner,
+  .about-items {
+    flex-direction: column;
+  }
+  .btn-primary {
+    margin-top: 10px;
+  }
+  .header {
+    background-image: none;
+  }
+  nav li {
+    margin-bottom: 10px;
+  }
+  .banner {
+    margin: 20px;
+  }
+  .banner-content img {
+    width: 100%;
+  }
+  footer, .about {
+    padding: 20px;
+  }
+  input[type="text"],
+  input[type="email"] {
+    padding: 18px 100px 18px 30px;
+  }
+  footer textarea {
+     padding: 18px 150px 130px 30px;
+  }
+}
+
+/* @media screen and (min-width: 576px) and (max-width:992px) {
+  .banner {
+    flex-direction: column;
+  }
+    input[type="text"],
+  input[type="email"] {
+    padding: 18px 100px 18px 30px;
+  }
+  footer {
+    gap:80px;
+    padding: 130px 100px;
+  }
+  footer textarea {
+     padding: 18px 100px 130px 30px;
+  }
+} */
+
